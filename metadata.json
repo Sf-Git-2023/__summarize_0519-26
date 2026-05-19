@@ -1,0 +1,6 @@
+{
+  "name": "AI 會議記錄與翻譯助手",
+  "description": "高效生成會議記錄，並支援多語言翻譯。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
