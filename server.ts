@@ -12,11 +12,6 @@ async function startServer() {
   // Gemini client setup
   const ai = new GoogleGenAI({
     apiKey: process.env.GEMINI_API_KEY!,
-    httpOptions: {
-      headers: {
-        'User-Agent': 'aistudio-build',
-      }
-    }
   });
 
   // API route
